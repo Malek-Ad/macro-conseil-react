@@ -1,0 +1,161 @@
+.privacy-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.privacy-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-content h1 {
+    font-size: 2.5em;
+    color: #063461;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.privacy-content section {
+    margin-bottom: 40px;
+}
+
+.privacy-content h2 {
+    color: #063461;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.privacy-content h3 {
+    color: #063461;
+    font-size: 1.3em;
+    margin: 20px 0 15px;
+}
+
+.privacy-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.privacy-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.privacy-content li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.privacy-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.privacy-footer p {
+    margin: 5px 0;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.privacy-section {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.privacy-section h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.privacy-section article {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #515151;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.privacy-section article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.privacy-section h2 {
+    color: #063461;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.privacy-section h2:hover {
+    color: #007BFF;
+}
+
+.privacy-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.privacy-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.privacy-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .privacy-container {
+        padding: 60px 15px 20px;
+    }
+
+    .privacy-content {
+        padding: 20px;
+    }
+
+    .faq-title {
+        font-size: 2em;
+    }
+
+    .privacy-section {
+        padding: 20px;
+    }
+
+    .privacy-section h2 {
+        font-size: 1.5em;
+    }
+}
